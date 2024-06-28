@@ -1,0 +1,19 @@
+{
+  "name": "bundlere",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rollup -c -w",
+    "dev": "rollup src/main.js -f cjs -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.70.1"
+  },
+  "dependencies": {
+    "rollup-plugin-css-only": "^3.1.0"
+  }
+}
